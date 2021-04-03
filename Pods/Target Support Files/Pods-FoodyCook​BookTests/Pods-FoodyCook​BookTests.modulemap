@@ -1,0 +1,6 @@
+framework module Pods_FoodyCook_BookTests {
+  umbrella header "Pods-FoodyCook​BookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import FoodyCook_Book
 
 class CoredataTestCases: XCTestCase {
 
@@ -16,17 +17,28 @@ class CoredataTestCases: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testGetAllFavouritesIfNoValuesAdded() throws{
+        
+        XCTAssertTrue(CoredataLayer().getAllFavMeals().count == 0 ? true : false)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testIsFavAdded() throws{
+        
+        XCTAssertTrue(CoredataLayer().isFavMeal(id: "123456") == false ? true : false)
     }
+    
+    func insertFav() throws{
+        
+        CoredataLayer().insertFavMeal(mealObject: .init(foodData: .init(idMeal: "123456", strMeal: "name", strInstructions: "instruction", strMealThumb: "image", strYoutube: "link", strTags: "tags")))
+        
+        XCTAssertTrue(CoredataLayer().isFavMeal(id: "123456") == true ? true : false)
+    }
+    
+    func testDeleteFav() throws{
+        CoredataLayer().insertFavMeal(mealObject: .init(foodData: .init(idMeal: "123456", strMeal: "name", strInstructions: "instruction", strMealThumb: "image", strYoutube: "link", strTags: "tags")))
+        CoredataLayer().deleteFavMeal(id: "123456")
+        XCTAssertTrue(CoredataLayer().getAllFavMeals().count == 0 ? true : false)
+    }
+    
 
 }

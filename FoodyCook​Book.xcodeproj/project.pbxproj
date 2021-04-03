@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,35 @@
 		215E579C26183A300041091D /* FoodyCook_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 215E579A26183A300041091D /* FoodyCook_Book.xcdatamodeld */; };
 		215E579E26183A330041091D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215E579D26183A330041091D /* Assets.xcassets */; };
 		215E57A126183A330041091D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215E579F26183A330041091D /* LaunchScreen.storyboard */; };
-		215E57AC26183A330041091D /* FoodyCook_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57AB26183A330041091D /* FoodyCook_BookTests.swift */; };
-		215E57B726183A330041091D /* FoodyCook_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57B626183A330041091D /* FoodyCook_BookUITests.swift */; };
+		215E57FC26183C920041091D /* LocationAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57D626183C920041091D /* LocationAddModel.swift */; };
+		215E57FE26183C920041091D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57D926183C920041091D /* Constants.swift */; };
+		215E57FF26183C920041091D /* Button+Extenction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57DA26183C920041091D /* Button+Extenction.swift */; };
+		215E580126183C920041091D /* SystemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57DC26183C920041091D /* SystemAlert.swift */; };
+		215E580226183C920041091D /* FoodUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57DD26183C920041091D /* FoodUtility.swift */; };
+		215E580326183C920041091D /* Control+Extenction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57DE26183C920041091D /* Control+Extenction.swift */; };
+		215E580426183C920041091D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57DF26183C920041091D /* ShadowView.swift */; };
+		215E580626183C920041091D /* ColorSchema.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215E57E126183C920041091D /* ColorSchema.xcassets */; };
+		215E580A26183C920041091D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57E626183C920041091D /* HomeViewController.swift */; };
+		215E580B26183C920041091D /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57E726183C920041091D /* FavViewController.swift */; };
+		215E580C26183C920041091D /* ListTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215E57E926183C920041091D /* ListTableCell.xib */; };
+		215E580E26183C920041091D /* ListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57EB26183C920041091D /* ListTableCell.swift */; };
+		215E581226183C920041091D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57F026183C920041091D /* APIManager.swift */; };
+		215E581326183C920041091D /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57F126183C920041091D /* ApiEndPoint.swift */; };
+		215E581626183C920041091D /* LocationAddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57F526183C920041091D /* LocationAddViewModel.swift */; };
+		215E581726183C920041091D /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57F726183C920041091D /* PersistenceManager.swift */; };
+		215E581826183C920041091D /* CoredataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E57F826183C920041091D /* CoredataLayer.swift */; };
+		215E5846261853250041091D /* AllMealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E5845261853250041091D /* AllMealModel.swift */; };
+		215E584B2618561C0041091D /* AllMealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E584A2618561C0041091D /* AllMealViewModel.swift */; };
+		215E585C2618633C0041091D /* SubCourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E585B2618633C0041091D /* SubCourceViewController.swift */; };
+		215E586C26186C690041091D /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E586B26186C690041091D /* ApiClient.swift */; };
+		215E589D261885220041091D /* FavTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E589B261885220041091D /* FavTableViewCell.swift */; };
+		215E589E261885220041091D /* FavTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215E589C261885220041091D /* FavTableViewCell.xib */; };
+		215E58AA2618BA1B0041091D /* CoredataTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E58A92618BA1B0041091D /* CoredataTestCases.swift */; };
+		215E58B82618BDCA0041091D /* FoodyCook_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E58B72618BDCA0041091D /* FoodyCook_BookTests.swift */; };
+		215E58C02618BDDA0041091D /* FoodyCook_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215E58BF2618BDDA0041091D /* FoodyCook_BookUITests.swift */; };
+		26049FF953AE9694D0EBE77F /* Pods_FoodyCook_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27825FF8C1EFEB00B26AF91 /* Pods_FoodyCook_BookTests.framework */; };
+		57E82515A04D23A51D1E34C9 /* Pods_FoodyCook_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CD963F0621EA58E4C88331 /* Pods_FoodyCook_Book.framework */; };
+		9414AD3B7F86223F066D058A /* Pods_FoodyCook_Book_FoodyCook_BookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851E0CF748F57F2B134E932C /* Pods_FoodyCook_Book_FoodyCook_BookUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +73,44 @@
 		215E57A026183A330041091D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215E57A226183A330041091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		215E57A726183A330041091D /* FoodyCook​BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodyCook​BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		215E57AB26183A330041091D /* FoodyCook_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyCook_BookTests.swift; sourceTree = "<group>"; };
 		215E57AD26183A330041091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		215E57B226183A330041091D /* FoodyCook​BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodyCook​BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		215E57B626183A330041091D /* FoodyCook_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyCook_BookUITests.swift; sourceTree = "<group>"; };
 		215E57B826183A330041091D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215E57D626183C920041091D /* LocationAddModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddModel.swift; sourceTree = "<group>"; };
+		215E57D926183C920041091D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		215E57DA26183C920041091D /* Button+Extenction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Button+Extenction.swift"; sourceTree = "<group>"; };
+		215E57DC26183C920041091D /* SystemAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemAlert.swift; sourceTree = "<group>"; };
+		215E57DD26183C920041091D /* FoodUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodUtility.swift; sourceTree = "<group>"; };
+		215E57DE26183C920041091D /* Control+Extenction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Control+Extenction.swift"; sourceTree = "<group>"; };
+		215E57DF26183C920041091D /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		215E57E126183C920041091D /* ColorSchema.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorSchema.xcassets; sourceTree = "<group>"; };
+		215E57E626183C920041091D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		215E57E726183C920041091D /* FavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		215E57E926183C920041091D /* ListTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableCell.xib; sourceTree = "<group>"; };
+		215E57EB26183C920041091D /* ListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableCell.swift; sourceTree = "<group>"; };
+		215E57F026183C920041091D /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		215E57F126183C920041091D /* ApiEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		215E57F526183C920041091D /* LocationAddViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAddViewModel.swift; sourceTree = "<group>"; };
+		215E57F726183C920041091D /* PersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		215E57F826183C920041091D /* CoredataLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoredataLayer.swift; sourceTree = "<group>"; };
+		215E5845261853250041091D /* AllMealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMealModel.swift; sourceTree = "<group>"; };
+		215E584A2618561C0041091D /* AllMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMealViewModel.swift; sourceTree = "<group>"; };
+		215E585B2618633C0041091D /* SubCourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCourceViewController.swift; sourceTree = "<group>"; };
+		215E586B26186C690041091D /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		215E589B261885220041091D /* FavTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavTableViewCell.swift; sourceTree = "<group>"; };
+		215E589C261885220041091D /* FavTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavTableViewCell.xib; sourceTree = "<group>"; };
+		215E58A92618BA1B0041091D /* CoredataTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataTestCases.swift; sourceTree = "<group>"; };
+		215E58B72618BDCA0041091D /* FoodyCook_BookTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodyCook_BookTests.swift; sourceTree = "<group>"; };
+		215E58BF2618BDDA0041091D /* FoodyCook_BookUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodyCook_BookUITests.swift; sourceTree = "<group>"; };
+		29A9817B4FE2B3904917F200 /* Pods-FoodyCook​Book-FoodyCook​BookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCook​Book-FoodyCook​BookUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodyCook​Book-FoodyCook​BookUITests/Pods-FoodyCook​Book-FoodyCook​BookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		615FA37E4C71CEB360B4C9FC /* Pods-FoodyCook​Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCook​Book.debug.xcconfig"; path = "Target Support Files/Pods-FoodyCook​Book/Pods-FoodyCook​Book.debug.xcconfig"; sourceTree = "<group>"; };
+		67CD963F0621EA58E4C88331 /* Pods_FoodyCook_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodyCook_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		851E0CF748F57F2B134E932C /* Pods_FoodyCook_Book_FoodyCook_BookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodyCook_Book_FoodyCook_BookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF6C04FF70A170FB2AFAA30 /* Pods-FoodyCook​BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCook​BookTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodyCook​BookTests/Pods-FoodyCook​BookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B27825FF8C1EFEB00B26AF91 /* Pods_FoodyCook_BookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodyCook_BookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE5C32CD3F460A8A21B9FF8 /* Pods-FoodyCook​BookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCook​BookTests.release.xcconfig"; path = "Target Support Files/Pods-FoodyCook​BookTests/Pods-FoodyCook​BookTests.release.xcconfig"; sourceTree = "<group>"; };
+		C34AF6F66B9790B9E70DD176 /* Pods-FoodyCook​Book-FoodyCook​BookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCook​Book-FoodyCook​BookUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodyCook​Book-FoodyCook​BookUITests/Pods-FoodyCook​Book-FoodyCook​BookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F631E92926240ADDC22F5B55 /* Pods-FoodyCook​Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodyCook​Book.release.xcconfig"; path = "Target Support Files/Pods-FoodyCook​Book/Pods-FoodyCook​Book.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E82515A04D23A51D1E34C9 /* Pods_FoodyCook_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26049FF953AE9694D0EBE77F /* Pods_FoodyCook_BookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9414AD3B7F86223F066D058A /* Pods_FoodyCook_Book_FoodyCook_BookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +148,8 @@
 				215E57AA26183A330041091D /* FoodyCook​BookTests */,
 				215E57B526183A330041091D /* FoodyCook​BookUITests */,
 				215E578F26183A300041091D /* Products */,
+				DEBCBADB21A0B0C240F613FD /* Pods */,
+				65F5769966A45F675EC5B669 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +168,17 @@
 			children = (
 				215E579126183A300041091D /* AppDelegate.swift */,
 				215E579326183A300041091D /* SceneDelegate.swift */,
+				215E57D826183C920041091D /* Utility */,
+				215E57EF26183C920041091D /* CommunicationLayer */,
+				215E57F626183C920041091D /* CoreDataStack */,
+				215E57E826183C920041091D /* View */,
+				215E57D226183C920041091D /* Model */,
+				215E57F226183C920041091D /* ViewModel */,
+				215E57E226183C920041091D /* Controller */,
 				215E579526183A300041091D /* ViewController.swift */,
 				215E579726183A300041091D /* Main.storyboard */,
 				215E579D26183A330041091D /* Assets.xcassets */,
+				215E57E126183C920041091D /* ColorSchema.xcassets */,
 				215E579F26183A330041091D /* LaunchScreen.storyboard */,
 				215E57A226183A330041091D /* Info.plist */,
 				215E579A26183A300041091D /* FoodyCook_Book.xcdatamodeld */,
@@ -116,8 +189,9 @@
 		215E57AA26183A330041091D /* FoodyCook​BookTests */ = {
 			isa = PBXGroup;
 			children = (
-				215E57AB26183A330041091D /* FoodyCook_BookTests.swift */,
 				215E57AD26183A330041091D /* Info.plist */,
+				215E58B72618BDCA0041091D /* FoodyCook_BookTests.swift */,
+				215E58A92618BA1B0041091D /* CoredataTestCases.swift */,
 			);
 			path = "FoodyCook​BookTests";
 			sourceTree = "<group>";
@@ -125,10 +199,104 @@
 		215E57B526183A330041091D /* FoodyCook​BookUITests */ = {
 			isa = PBXGroup;
 			children = (
-				215E57B626183A330041091D /* FoodyCook_BookUITests.swift */,
+				215E58BF2618BDDA0041091D /* FoodyCook_BookUITests.swift */,
 				215E57B826183A330041091D /* Info.plist */,
 			);
 			path = "FoodyCook​BookUITests";
+			sourceTree = "<group>";
+		};
+		215E57D226183C920041091D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				215E57D626183C920041091D /* LocationAddModel.swift */,
+				215E5845261853250041091D /* AllMealModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		215E57D826183C920041091D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				215E57D926183C920041091D /* Constants.swift */,
+				215E57DA26183C920041091D /* Button+Extenction.swift */,
+				215E57DC26183C920041091D /* SystemAlert.swift */,
+				215E57DD26183C920041091D /* FoodUtility.swift */,
+				215E57DE26183C920041091D /* Control+Extenction.swift */,
+				215E57DF26183C920041091D /* ShadowView.swift */,
+				215E586B26186C690041091D /* ApiClient.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		215E57E226183C920041091D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				215E57E626183C920041091D /* HomeViewController.swift */,
+				215E585B2618633C0041091D /* SubCourceViewController.swift */,
+				215E57E726183C920041091D /* FavViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		215E57E826183C920041091D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				215E57E926183C920041091D /* ListTableCell.xib */,
+				215E589B261885220041091D /* FavTableViewCell.swift */,
+				215E589C261885220041091D /* FavTableViewCell.xib */,
+				215E57EB26183C920041091D /* ListTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		215E57EF26183C920041091D /* CommunicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				215E57F026183C920041091D /* APIManager.swift */,
+				215E57F126183C920041091D /* ApiEndPoint.swift */,
+			);
+			path = CommunicationLayer;
+			sourceTree = "<group>";
+		};
+		215E57F226183C920041091D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				215E57F526183C920041091D /* LocationAddViewModel.swift */,
+				215E584A2618561C0041091D /* AllMealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		215E57F626183C920041091D /* CoreDataStack */ = {
+			isa = PBXGroup;
+			children = (
+				215E57F726183C920041091D /* PersistenceManager.swift */,
+				215E57F826183C920041091D /* CoredataLayer.swift */,
+			);
+			path = CoreDataStack;
+			sourceTree = "<group>";
+		};
+		65F5769966A45F675EC5B669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67CD963F0621EA58E4C88331 /* Pods_FoodyCook_Book.framework */,
+				851E0CF748F57F2B134E932C /* Pods_FoodyCook_Book_FoodyCook_BookUITests.framework */,
+				B27825FF8C1EFEB00B26AF91 /* Pods_FoodyCook_BookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEBCBADB21A0B0C240F613FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				615FA37E4C71CEB360B4C9FC /* Pods-FoodyCook​Book.debug.xcconfig */,
+				F631E92926240ADDC22F5B55 /* Pods-FoodyCook​Book.release.xcconfig */,
+				C34AF6F66B9790B9E70DD176 /* Pods-FoodyCook​Book-FoodyCook​BookUITests.debug.xcconfig */,
+				29A9817B4FE2B3904917F200 /* Pods-FoodyCook​Book-FoodyCook​BookUITests.release.xcconfig */,
+				8FF6C04FF70A170FB2AFAA30 /* Pods-FoodyCook​BookTests.debug.xcconfig */,
+				BCE5C32CD3F460A8A21B9FF8 /* Pods-FoodyCook​BookTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 215E57BB26183A330041091D /* Build configuration list for PBXNativeTarget "FoodyCook​Book" */;
 			buildPhases = (
+				29D2B436513B3AFA9AD0D620 /* [CP] Check Pods Manifest.lock */,
 				215E578A26183A300041091D /* Sources */,
 				215E578B26183A300041091D /* Frameworks */,
 				215E578C26183A300041091D /* Resources */,
+				5C2101C3B8BF910EBB3F8538 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 215E57BE26183A330041091D /* Build configuration list for PBXNativeTarget "FoodyCook​BookTests" */;
 			buildPhases = (
+				DBB7792DF0A5903344CAE1AF /* [CP] Check Pods Manifest.lock */,
 				215E57A326183A330041091D /* Sources */,
 				215E57A426183A330041091D /* Frameworks */,
 				215E57A526183A330041091D /* Resources */,
@@ -173,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 215E57C126183A330041091D /* Build configuration list for PBXNativeTarget "FoodyCook​BookUITests" */;
 			buildPhases = (
+				4579DC406DF78F59838CABD7 /* [CP] Check Pods Manifest.lock */,
 				215E57AE26183A330041091D /* Sources */,
 				215E57AF26183A330041091D /* Frameworks */,
 				215E57B026183A330041091D /* Resources */,
+				6AF4BB9F11595E6D061EFBFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,10 +374,12 @@
 					};
 					215E57A626183A330041091D = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 215E578D26183A300041091D;
 					};
 					215E57B126183A330041091D = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = 215E578D26183A300041091D;
 					};
 				};
@@ -234,9 +409,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215E580C26183C920041091D /* ListTableCell.xib in Resources */,
 				215E57A126183A330041091D /* LaunchScreen.storyboard in Resources */,
+				215E580626183C920041091D /* ColorSchema.xcassets in Resources */,
 				215E579E26183A330041091D /* Assets.xcassets in Resources */,
 				215E579926183A300041091D /* Main.storyboard in Resources */,
+				215E589E261885220041091D /* FavTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +434,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29D2B436513B3AFA9AD0D620 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodyCook​Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4579DC406DF78F59838CABD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodyCook​Book-FoodyCook​BookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C2101C3B8BF910EBB3F8538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodyCook​Book/Pods-FoodyCook​Book-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodyCook​Book/Pods-FoodyCook​Book-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodyCook​Book/Pods-FoodyCook​Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF4BB9F11595E6D061EFBFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodyCook​Book-FoodyCook​BookUITests/Pods-FoodyCook​Book-FoodyCook​BookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodyCook​Book-FoodyCook​BookUITests/Pods-FoodyCook​Book-FoodyCook​BookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodyCook​Book-FoodyCook​BookUITests/Pods-FoodyCook​Book-FoodyCook​BookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB7792DF0A5903344CAE1AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodyCook​BookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		215E578A26183A300041091D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215E580326183C920041091D /* Control+Extenction.swift in Sources */,
 				215E579626183A300041091D /* ViewController.swift in Sources */,
+				215E585C2618633C0041091D /* SubCourceViewController.swift in Sources */,
+				215E584B2618561C0041091D /* AllMealViewModel.swift in Sources */,
+				215E580B26183C920041091D /* FavViewController.swift in Sources */,
 				215E579226183A300041091D /* AppDelegate.swift in Sources */,
 				215E579C26183A300041091D /* FoodyCook_Book.xcdatamodeld in Sources */,
+				215E57FC26183C920041091D /* LocationAddModel.swift in Sources */,
+				215E586C26186C690041091D /* ApiClient.swift in Sources */,
+				215E57FE26183C920041091D /* Constants.swift in Sources */,
+				215E580226183C920041091D /* FoodUtility.swift in Sources */,
+				215E581326183C920041091D /* ApiEndPoint.swift in Sources */,
+				215E5846261853250041091D /* AllMealModel.swift in Sources */,
+				215E581626183C920041091D /* LocationAddViewModel.swift in Sources */,
+				215E581826183C920041091D /* CoredataLayer.swift in Sources */,
+				215E580426183C920041091D /* ShadowView.swift in Sources */,
+				215E580E26183C920041091D /* ListTableCell.swift in Sources */,
+				215E589D261885220041091D /* FavTableViewCell.swift in Sources */,
 				215E579426183A300041091D /* SceneDelegate.swift in Sources */,
+				215E581726183C920041091D /* PersistenceManager.swift in Sources */,
+				215E580A26183C920041091D /* HomeViewController.swift in Sources */,
+				215E57FF26183C920041091D /* Button+Extenction.swift in Sources */,
+				215E580126183C920041091D /* SystemAlert.swift in Sources */,
+				215E581226183C920041091D /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +573,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215E57AC26183A330041091D /* FoodyCook_BookTests.swift in Sources */,
+				215E58B82618BDCA0041091D /* FoodyCook_BookTests.swift in Sources */,
+				215E58AA2618BA1B0041091D /* CoredataTestCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215E57B726183A330041091D /* FoodyCook_BookUITests.swift in Sources */,
+				215E58C02618BDDA0041091D /* FoodyCook_BookUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +672,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +727,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,18 +739,22 @@
 		};
 		215E57BC26183A330041091D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615FA37E4C71CEB360B4C9FC /* Pods-FoodyCook​Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RW5GD46UGW;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = JZU39S4JQB;
 				INFOPLIST_FILE = "FoodyCook​Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BlazeAutomation.FoodyCook-Book";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coralinnovation.allsmarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = coral_innovation_development_profile;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,18 +762,21 @@
 		};
 		215E57BD26183A330041091D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F631E92926240ADDC22F5B55 /* Pods-FoodyCook​Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RW5GD46UGW;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "FoodyCook​Book/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BlazeAutomation.FoodyCook-Book";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coralinnovation.allsmarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -475,9 +784,11 @@
 		};
 		215E57BF26183A330041091D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF6C04FF70A170FB2AFAA30 /* Pods-FoodyCook​BookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RW5GD46UGW;
 				INFOPLIST_FILE = "FoodyCook​BookTests/Info.plist";
@@ -489,6 +800,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BlazeAutomation.FoodyCook-BookTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodyCook​Book.app/FoodyCook​Book";
@@ -497,9 +810,11 @@
 		};
 		215E57C026183A330041091D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE5C32CD3F460A8A21B9FF8 /* Pods-FoodyCook​BookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RW5GD46UGW;
 				INFOPLIST_FILE = "FoodyCook​BookTests/Info.plist";
@@ -511,6 +826,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BlazeAutomation.FoodyCook-BookTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodyCook​Book.app/FoodyCook​Book";
@@ -519,8 +835,10 @@
 		};
 		215E57C226183A330041091D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34AF6F66B9790B9E70DD176 /* Pods-FoodyCook​Book-FoodyCook​BookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RW5GD46UGW;
 				INFOPLIST_FILE = "FoodyCook​BookUITests/Info.plist";
@@ -531,6 +849,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BlazeAutomation.FoodyCook-BookUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "FoodyCook​Book";
@@ -539,8 +858,10 @@
 		};
 		215E57C326183A330041091D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A9817B4FE2B3904917F200 /* Pods-FoodyCook​Book-FoodyCook​BookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RW5GD46UGW;
 				INFOPLIST_FILE = "FoodyCook​BookUITests/Info.plist";
